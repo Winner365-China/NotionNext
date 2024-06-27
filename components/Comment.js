@@ -15,7 +15,7 @@ function changevsblt() {
 // 隐藏元素
     cmhder.style.display = 'none';
 
-}
+};
 
 const WalineComponent = dynamic(
   () => {
