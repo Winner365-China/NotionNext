@@ -125,7 +125,7 @@ const Comment = ({ frontMatter, className }) => {
   }
 
   if (!frontMatter) {
-    return <>Loading...</>
+    return <>请稍后，正在加载评论区插件...</>
   }
 
   if (isSearchEngineBot()) {
@@ -150,7 +150,7 @@ const Comment = ({ frontMatter, className }) => {
       {/* 延迟加载评论区 */}
       {!shouldLoad && (
         <div className='text-center'>
-          Loading...
+          请稍后，正在加载评论区插件...
           <i className='fas fa-spinner animate-spin text-3xl ' />
         </div>
       )}
