@@ -1,12 +1,11 @@
 const CONFIG = {
-  HEO_HOME_BANNER_ENABLE: true,
+ HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2023-03-22', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    // { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -15,12 +14,13 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: '初阅不明言外意，',
+  HEO_HERO_TITLE_2: '重温方觉字中情。',
+  HEO_HERO_TITLE_3: '365云栈',
+  HEO_HERO_TITLE_4: '最近更新',
+  HEO_HERO_TITLE_5: '编辑MongoDB：使用VSCode编辑数据库',
+  HEO_HERO_TITLE_LINK: 'https://blog.365sites.top/article/2024-06-22-001',
+  HERO_RECOMMEND_COVER: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F53278b68-7d4c-47ba-a832-08206c593d30%2F5a1017b4-dee1-4458-af61-3c03337de167%2F%25E5%25B1%258F%25E5%25B9%2595%25E6%2588%25AA%25E5%259B%25BE_2024-06-23_173627.png?table=block&id=2f0ec2bd-3a45-4a82-8c90-7c2d36d157d2&t=2f0ec2bd-3a45-4a82-8c90-7c2d36d157d2&width=800&cache=v2', // 英雄区右侧图片
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -28,7 +28,7 @@ const CONFIG = {
   HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_TAG: '推荐banner',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
@@ -46,12 +46,11 @@ const CONFIG = {
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: 'https://github.com/tangly1024',
+  HEO_INFO_CARD_URL2: 'https://github.com/winner365-china',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_URL3: '/about-me',
   HEO_INFO_CARD_TEXT3: '了解更多',
-
-  // 用户技能图标
+// 用户技能图标
   HEO_GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
@@ -111,7 +110,8 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+
+  HEO_SOCIAL_CARD: false, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
