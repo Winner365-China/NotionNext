@@ -6,6 +6,17 @@ import { useRouter } from 'next/router'
 import { useEffect, useRef, useState } from 'react'
 import Artalk from './Artalk'
 
+// 隐藏评论区头部的函数
+// 提供者：Winner365（blog.365sites.top）
+function changevsblt() {
+   // 获取具有 id 'comheader' 的元素
+   var cmhder = document.getElementById('comheader');
+
+// 隐藏元素
+    cmhder.style.display = 'none';
+
+}
+
 const WalineComponent = dynamic(
   () => {
     return import('@/components/WalineComponent')
@@ -114,18 +125,20 @@ const Comment = ({ frontMatter, className }) => {
   }
 
   if (!frontMatter) {
-    return <>Loading...</>
+    return <>请稍等，正在加载评论区...</>
   }
 
   if (isSearchEngineBot()) {
     return null
   }
 
-  // 特定文章关闭评论区
+  // 特定文章隐藏评论区
   if (frontMatter?.comment === 'Hide') {
     return (
-      <p>此处评论区已经关闭</p>
-    );
+    <div>
+      {changevsblt()}
+      </div>
+     );
   }
 
   return (
@@ -137,7 +150,7 @@ const Comment = ({ frontMatter, className }) => {
       {/* 延迟加载评论区 */}
       {!shouldLoad && (
         <div className='text-center'>
-          Loading...
+          请稍等，正在努力加载评论区...
           <i className='fas fa-spinner animate-spin text-3xl ' />
         </div>
       )}
