@@ -20,7 +20,7 @@ const CONFIG = {
   HEO_HERO_TITLE_4: '最近更新',
   HEO_HERO_TITLE_5: '编辑MongoDB：使用VSCode编辑数据库',
   HEO_HERO_TITLE_LINK: 'https://blog.365sites.top/article/2024-06-22-001',
-  HERO_RECOMMEND_COVER: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F53278b68-7d4c-47ba-a832-08206c593d30%2F5a1017b4-dee1-4458-af61-3c03337de167%2F%25E5%25B1%258F%25E5%25B9%2595%25E6%2588%25AA%25E5%259B%25BE_2024-06-23_173627.png?table=block&id=2f0ec2bd-3a45-4a82-8c90-7c2d36d157d2&t=2f0ec2bd-3a45-4a82-8c90-7c2d36d157d2&width=800&cache=v2', // 英雄区右侧图片
+  HERO_RECOMMEND_COVER: 'https://i.p-i.vip/18/20240628-667e2fa0c334a.png', // 英雄区右侧图片
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
