@@ -1,6 +1,7 @@
 import { siteConfig } from '@/lib/config'
 import { useGlobal } from '@/lib/global'
 import Link from 'next/link'
+import Tabs from '@/components/Tabs'
 import { useRouter } from 'next/router'
 import { useEffect, useRef , useState } from 'react'
 import CONFIG from '@/themes/heo/config.js'
