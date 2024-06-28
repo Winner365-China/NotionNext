@@ -118,7 +118,7 @@ const Comment = ({ frontMatter, className }) => {
   }
 
   if (isSearchEngineBot()) {
-    return null
+    return null;
   }
 
   // 特定文章关闭评论区
