@@ -125,6 +125,7 @@ const Comment = ({ frontMatter, className }) => {
   if (frontMatter?.comment === 'Hide') {
     return (
        <p>请前往留言板发送评论</p>
+    );
   };
 
   return (
