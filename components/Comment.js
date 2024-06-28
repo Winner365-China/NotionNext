@@ -124,7 +124,7 @@ const Comment = ({ frontMatter, className }) => {
   // 特定文章关闭评论区
   if (frontMatter?.comment === 'Hide') {
     return (
-       <p>请前往留言板发送评论</P>
+       <p>请前往留言板发送评论</p>
   };
 
   return (
