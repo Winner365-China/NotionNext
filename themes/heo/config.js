@@ -5,7 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    // { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    { title: '这一天，必定是我建站生涯中不平凡的一天...', url: '/diary-logs' },
+    { title: '差不多把之前写的有用文章都迁过来了，删...', url: '/diary-logs' }
   ],
 
   // 英雄区左右侧组件颠倒位置
