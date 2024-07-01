@@ -21,7 +21,7 @@ const ShortCutActions = [
   },
   {
     key: 'Enter',
-    action: '跳转'
+    action: '搜索'
   },
   {
     key: 'Esc',
@@ -259,7 +259,7 @@ export default function AlgoliaSearchModal({ cRef }) {
 
         <input
           type='text'
-          placeholder='在这里输入搜索关键词...'
+          placeholder='搜点儿什么...'
           onChange={e => handleInputChange(e)}
           className='text-black dark:text-gray-200 bg-gray-50 dark:bg-gray-600 outline-blue-500 w-full px-4 my-2 py-1 mb-4 border rounded-md'
           ref={inputRef}
@@ -273,7 +273,7 @@ export default function AlgoliaSearchModal({ cRef }) {
           <div>
             <p className=' text-slate-600 text-center my-4 text-base'>
               {' '}
-              无法找到相关结果
+              查无结果
               <span className='font-semibold'>&quot;{keyword}&quot;</span>
             </p>
           </div>
@@ -321,7 +321,7 @@ export default function AlgoliaSearchModal({ cRef }) {
           </div>
           <div className='text-gray-600 dark:text-gray-300  text-right'>
             <span>
-              <i className='fa-brands fa-algolia'></i> Algolia 提供搜索服务
+              Search by <i className='fa-brands fa-algolia'></i> Algolia
             </span>
           </div>
         </div>
